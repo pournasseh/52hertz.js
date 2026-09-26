@@ -1,0 +1,14 @@
+{
+  "name": "52hertz",
+  "version": "0.2.1",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "description": "Deterministic shared-clock radio playout",
+  "exports": {
+    ".": "./52hertz.js"
+  },
+  "scripts": {
+    "test": "node --test 52hertz.test.mjs"
+  }
+}
