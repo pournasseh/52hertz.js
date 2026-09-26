@@ -2,6 +2,8 @@
 
 # 52hertz.js
 
+[![CI](https://github.com/pournasseh/52hertz.js/actions/workflows/ci.yml/badge.svg)](https://github.com/pournasseh/52hertz.js/actions/workflows/ci.yml)
+
 Deterministic shared-clock radio playout. Pure ESM, no dependencies, no audio
 API — only math: given a station and a unix time, every listener gets the same
 track and offset.
