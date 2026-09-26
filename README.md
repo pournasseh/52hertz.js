@@ -6,6 +6,12 @@ Deterministic shared-clock radio playout. Pure ESM, no dependencies, no audio
 API — only math: given a station and a unix time, every listener gets the same
 track and offset.
 
+## About
+
+52hertz.js is the reusable playout primitive underneath the project: a dependency-free ESM module that turns **station + time** into the current item and exact playback offset. It deliberately contains no audio or UI layer, so the deterministic clock can be embedded in other players, editors, stations, or experiments.
+
+
+
 ## Install / use
 
 Copy `52hertz.js` into your app or import it directly from a local checkout. It
